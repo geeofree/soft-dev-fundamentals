@@ -15,7 +15,8 @@ public class PrimeChecker {
 				primeInput = scanner.nextInt();
 			}while(primeInput < 1);
 		}
-		else if(primeInput == 1) {
+		
+		if(primeInput == 1) {
 			System.out.println(primeInput + " is a prime!");
 			return;
 		}
